@@ -1,0 +1,74 @@
+{
+    "overview": [
+        {"title": "Advanced Game Analytics"},
+        {"subtitle": "Unlock the Hidden Patterns in Your Games"},
+        {"body": "Podable's advanced analytics transform raw game data into actionable strategic insights. Each visualization reveals different aspects of your gameplay, helping you understand not just what happened, but why it happened and how to improve."}
+    ],
+    "performance": [
+        {"title": "📊 Performance Analytics"},
+        {"subtitle": "Deep Dive Into What Makes Decks Successful"},
+        {"body": "Enhanced performance views go beyond simple win rates to analyze efficiency, consistency, and situational performance."},
+        {"subtitle": "Efficiency Rating:"},
+        {"body": "Combines win rate with average turn speed: Efficiency = (Win Rate × Turn Speed Factor)\nFaster decision-making with good results indicates mastery of a deck."},
+        {"subtitle": "Consistency Metrics:"},
+        {"body": "• Standard Deviation of Game Lengths (lower = more consistent)\n• Turn Pattern Reliability (do you follow similar play sequences?)\n• Bracket Accuracy (does your power level match your rating?)"},
+        {"subtitle": "Situational Analysis:"},
+        {"body": "• Performance by Turn Order (do you play better going first/last?)\n• Pod Size Impact (how do you perform in 3vs4 player games?)\n• Time-of-Day Effects (are you sharper during certain hours?)"}
+    ],
+    
+    "ecosystem": [
+        {"title": "🌐 Commander Ecosystem Map"},
+        {"subtitle": "Understand Your Meta's Hidden Dynamics"},
+        {"body": "The Ecosystem Map reveals relationships between commanders in your playgroup, showing frequency pairings, head-to-head matchups, and meta health metrics."},
+        {"subtitle": "Network Visualization:"},
+        {"body": "• Node Size = How often a commander is played\n• Node Color = Win rate performance\n• Connections = Games played together\n• Connection Thickness = Pairing frequency"},
+        {"subtitle": "Head-to-Head Matrix:"},
+        {"body": "This color-coded grid shows win percentages when specific commanders face each other. Darker colors indicate higher win rates in that matchup."},
+        {"subtitle": "Meta Health Scoring:"},
+        {"body": "Diversity Score: Measures how evenly commanders are played (higher = more variety)\nBalance Score: Measures win rate distribution (higher = more competitive balance)"},
+        {"body": "Your meta is healthiest when both scores are above 70%. Low diversity suggests commander stagnation; low balance indicates power level mismatches."},
+        {"subtitle": "Strategic Applications:"},
+        {"body": "• Identify favorable and unfavorable matchups for your commanders\n• Discover underplayed commanders that might surprise opponents\n• Recognize meta trends and adapt accordingly\n• Find commanders that pair well together in multiplayer"}
+    ],
+    "gameFlow": [
+        {"title": "🔥 Game Flow Heat Map"},
+        {"subtitle": "See the Story of Every Game"},
+        {"body": "The Game Flow Heat Map displays turn-by-turn intensity for each player, revealing when games are won and lost. Each cell represents one turn, colored by its 'impact level' on the game outcome."},
+        {"subtitle": "How It's Calculated:"},
+        {"body": "Turn intensity combines multiple factors:\n• Turn Duration (longer turns often indicate complex, impactful plays)\n• Commander Damage Dealt (aggressive turns that pressure opponents)\n• Game Position (late-game turns carry more weight)\n• Outcome Influence (turns that led to wins are highlighted)"},
+        {"subtitle": "Reading the Heat Map:"},
+        {"body": "🟢 Green = Low intensity (setup, passive turns)\n🟡 Yellow = Medium intensity (meaningful plays)\n🔴 Red = High intensity (game-changing moments)\n🔵 Blue border = Your active turn\n👑 Gold = Winning turn\n❌ = Elimination turn"},
+        {"subtitle": "Strategic Applications:"},
+        {"body": "• Identify when you typically become threatening (and when others do)\n• Spot patterns in successful vs failed games\n• Time your interaction and threats more effectively\n• Recognize when to hold back vs when to commit resources"},
+        {"body": "Example: If your wins always show 2-3 consecutive red cells before victory, you know you need to 'chain together' impactful turns rather than making isolated big plays."}
+    ],
+    "brackets": [
+      {"title": "🎯 Bracket Analysis"},
+      {"subtitle": "Perfect Your Power Level Assessment"},
+      {"body": "Bracket analysis helps ensure fair, fun games by tracking power level accuracy and suggesting adjustments."},
+      {"subtitle": "Self-Rating Accuracy:"},
+      {"body": "Compares your bracket self-ratings with actual performance:\n• Over-rating: Lower win rate than expected for bracket\n• Under-rating: Higher win rate than expected for bracket\n• Accurate: Performance matches bracket expectations"},
+      {"subtitle": "Opponent Feedback Integration:"},
+      {"body": "When opponents rate your deck differently than you do, it suggests:\n• Perception Gap: Your deck feels stronger/weaker than you think\n• Pilot Effect: Your skill level affects the deck's actual power\n• Meta Context: Power is relative to your specific playgroup"},
+      {"subtitle": "Dynamic Bracket Suggestions:"},
+      {"body": "The app analyzes your performance trends and suggests bracket adjustments:\n• Consistent over-performance → Consider moving up a bracket\n• Consistent under-performance → Consider moving down\n• High variance → Deck power may be inconsistent"},
+      {"subtitle": "How Podable Enhances Bracket Accuracy"},
+      {"body": "Podable's Bracket Analysis goes beyond simple self-rating. It tracks:\n• Performance vs Expected (are you over/under-rating?)\n• Opponent Feedback (how others perceive your deck's power)\n• Dynamic Suggestions (recommended bracket adjustments based on data)"},
+      {"subtitle": "Meta Health & Brackets"},
+      {"body": "The Ecosystem Map shows bracket distribution in your meta. Healthy metas show:\n• Even spread across 2-3 brackets (variety without extreme gaps)\n• Low variance in win rates within brackets (balance)\n• Players accurately rating their decks (self-awareness)"}
+  ],
+    "turns": [
+        {"title": "⏱️ Turn Pattern Analysis"},
+        {"subtitle": "Master the Rhythm of Your Gameplay"},
+        {"body": "Turn analysis reveals the pacing and patterns that separate good players from great ones."},
+        {"subtitle": "Turn Duration Trends:"},
+        {"body": "Each commander shows average turn length by turn number. This reveals:\n• Setup Phase Length (how many turns until you're active)\n• Decision Complexity (when your turns become most complex)\n• Endgame Efficiency (do you close out games quickly?)"},
+        {"subtitle": "Pattern Recognition:"},
+        {"body": "Successful players often show consistent turn rhythms:\n• Fast early turns (quick setup decisions)\n• Longer mid-game turns (complex interactions)\n• Fast late-game turns (decisive action when ahead)"},
+        {"subtitle": "Improvement Opportunities:"},
+        {"body": "• If your early turns are long: streamline your setup decisions\n• If your late turns are long: practice recognizing win conditions\n• If patterns are erratic: work on strategic planning"}
+    ],
+    "database": [
+        
+    ]
+}
